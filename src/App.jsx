@@ -7,7 +7,7 @@ import PokemonDetails from './components/PokemonDetails'
 function App() {
 
   return (
-    <div className="App bg-[#E5E5E5]">
+    <div className="App">
 	<Routes>
 	    <Route path='/' element={ <Home /> }/>
 

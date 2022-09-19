@@ -1,5 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+body {
+    background: #E5E5E5;
+}
+
 .mb{
     margin-bottom: 40px;
 }

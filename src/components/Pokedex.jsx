@@ -41,9 +41,7 @@ const Pokedex = () => {
 		
 
     }
-console.log(pokemonData)
 
-// console.log(nextPage)
 
     const changeInput = (e) => {
 	setSearch(e.target.value.toLowerCase())

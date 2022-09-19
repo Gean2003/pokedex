@@ -22,8 +22,8 @@ const navigate = useNavigate()
 
 
     return (
-    <main className='relative h-screen mx-auto max-w-7xl'>
-	<div className='flex items-center justify-center h-full mx-auto'>
+    <main className='relative h-screen'>
+	<div className='flex items-center justify-center h-full mx-auto max-w-7xl'>
 	    <div>
 		<img src ={image}  alt="" className='mb w-[90%] mx-auto lg:w-full'/>
 		<h1 className='my-6  lg:text-[45px] font-semibold text-center text-red text-[36px]'>¡Hola entrenador!</h1>

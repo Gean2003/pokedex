@@ -19,7 +19,7 @@ const SelecType = ({setOptionType, optionType}) => {
 
 
     return (	
-	<select className='mx-auto lg:mx-0' value={optionType} onChange={handleChange}>
+	<select className='mx-auto py-2 bg-white px-2 rounded lg:mx-0' value={optionType} onChange={handleChange}>
       <option value="All">All pokemons</option>
       {
         listTypes?.map(type => (

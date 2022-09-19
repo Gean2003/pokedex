@@ -16,7 +16,7 @@ const PokemonDetails = () => {
 
 
     return (
-	<div className='flex flex-col items-center justify-center w-full h-auto py-5 lg:h-screen'>
+	<div className='flex flex-col items-center justify-center w-full h-auto py-5 lg:h-auto'>
 	<div className='lg:mx-auto  lg:max-w-7xl w-[355px] lg:w-[800px] py-5' >
 	    <div className='w-full'>
 		<img className='lg:w-[20%] w-[40%] sm:w-[30%] mx-auto' src={data?.sprites.other["official-artwork"]["front_default"]} alt="" />
@@ -59,10 +59,10 @@ const PokemonDetails = () => {
 
 	<div className='my-6 max-w-7xl w-[90%] px-5 py-5'>
 	    <h3 className='my-3 text-center text-[30px] font-bold'>Moves</h3>
-	    <div className='flex flex-wrap items-center justify-center mx-autosm:justify-between gap-7 lg:max-w-7xl sm:gap-4'>
+	    <div className='flex flex-wrap items-center justify-center mx-auto sm:justify-between gap-7 lg:max-w-7xl sm:gap-4'>
 		{
 		    data?.moves.map(move => (
-			<p className='font-semibold' key={move.move.name} >{move.move.name}</p>
+			<p className='font-semibold py-2 px-2 bg-white rounded' key={move.move.name} >{move.move.name}</p>
 		    ))
 		}
 	    </div>
